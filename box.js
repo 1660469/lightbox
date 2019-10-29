@@ -143,7 +143,7 @@ function getall() {
     showBoxSelected();
 }
 function getall1() {
-    arrayTeamWeb = arrayTeamWeb.concat(array);
+    arrayTeamWeb = array.concat(arrayTeamWeb);
     array = [];
     show();
     showBoxSelected();
